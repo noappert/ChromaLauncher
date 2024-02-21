@@ -11,17 +11,17 @@
       "id": "ChromaLifeV1-1.20.1",
       "name": "ChromaLifeV1 (Minecraft 1.20.1)",
       "description": "ChromaLifeV1 Running Minecraft 1.20.1 (Forge v47.2.20)",
-      "icon": null,
+      "icon": "https://cdn.discordapp.com/icons/1162759415393431672/4ddfbf54fe624b46cb952daef9551a35.webp",
       "version": "1.0.0",
-      "address": "chromalife.aternos.me",
+      "address": "chromalife.aternos.me:25565",
       "minecraftVersion": "1.20.1",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": true,
-      "autoconnect": true,
+      "mainServer": false,
+      "autoconnect": false,
       "modules": [
         {
           "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.2.20",
@@ -489,9 +489,9 @@
       "id": "DictaLand-1.20.1",
       "name": "DictaLand (Minecraft 1.20.1)",
       "description": "DictaLand Running Minecraft 1.20.1 (Forge v47.2.20)",
-      "icon": null,
+      "icon": "https://cdn.discordapp.com/attachments/1162761500612632688/1208856143837925477/Logo_DictaLand.png",
       "version": "1.0.0",
-      "address": "dictalland.aternos.me",
+      "address": "dictalland.aternos.me:25565",
       "minecraftVersion": "1.20.1",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -921,13 +921,13 @@
           }
         },
         {
-          "id": "com.ldtteam.blockui.mod:blockui:1.20.1-0.0.98-ALPHA@jar",
+          "id": "com.ldtteam.blockui.mod:blockui:1.20.1-1.0.139-BETA@jar",
           "name": "UI Library Mod",
           "type": "ForgeMod",
           "artifact": {
-            "size": 329631,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/DictaLand-1.20.1/forgemods/required/blockui-1.20.1-0.0.98-ALPHA.jar",
-            "MD5": "9a23462746c1e35cec23bdb6da21c69f"
+            "size": 384762,
+            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/DictaLand-1.20.1/forgemods/required/blockui-1.20.1-1.0.139-BETA.jar",
+            "MD5": "43c9158a11a080066b81f8c4fe9ff0a3"
           }
         },
         {
@@ -951,13 +951,13 @@
           }
         },
         {
-          "id": "com.ldtteam.domumornamentum:domum_ornamentum:1.20-1.0.110-RELEASE@jar",
+          "id": "com.ldtteam.domumornamentum:domum_ornamentum:1.20-1.0.157-BETA@jar",
           "name": "Domum Ornamentum",
           "type": "ForgeMod",
           "artifact": {
-            "size": 945088,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/DictaLand-1.20.1/forgemods/required/domum_ornamentum-1.20-1.0.110-RELEASE-universal.jar",
-            "MD5": "8f26be0c195ec1cffc43adce653ad662"
+            "size": 1062487,
+            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/DictaLand-1.20.1/forgemods/required/domum_ornamentum-1.20-1.0.157-BETA-universal.jar",
+            "MD5": "c22163d2d6ae28f5c508f9b4d1126da5"
           }
         },
         {
