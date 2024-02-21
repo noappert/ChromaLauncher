@@ -11,17 +11,17 @@
       "id": "ChromaLifev1-1.19.4",
       "name": "ChromaLifev1 (Minecraft 1.19.4)",
       "description": "ChromaLifev1 Running Minecraft 1.19.4 (Forge v45.2.0)",
-      "icon": "https://cdn.discordapp.com/icons/1162759415393431672/4ddfbf54fe624b46cb952daef9551a35.webp",
+      "icon": null,
       "version": "",
-      "address": "chromalife.aternos.me:25565",
+      "address": "localhost:25565",
       "minecraftVersion": "1.19.4",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": true,
-      "autoconnect": true,
+      "mainServer": false,
+      "autoconnect": false,
       "modules": [
         {
           "id": "net.minecraftforge:lowcodelanguage:1.19.4-45.2.0",
@@ -413,6 +413,16 @@
           ]
         },
         {
+          "id": "generated.forgemod:essential_1:3-0-6_forge_1-19-4@jar",
+          "name": "Essential_1",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 52226300,
+            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/ChromaLifev1-1.19.4/forgemods/required/essential_1-3-0-6_forge_1-19-4.jar",
+            "MD5": "5ef207401c15322f3d085322e7cc32af"
+          }
+        },
+        {
           "id": "mezz.jei:jei:13.1.0.15@jar",
           "name": "Just Enough Items",
           "type": "ForgeMod",
@@ -440,6 +450,17 @@
             "size": 7659088,
             "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/ChromaLifev1-1.19.4/forgemods/required/voicechat-forge-1.19.4-2.4.32.jar",
             "MD5": "0b0234c1b99c2bca3da292590698f470"
+          }
+        },
+        {
+          "id": "3.3.1v_VisualEnchantments.zip",
+          "name": "3.3.1v_VisualEnchantments.zip",
+          "type": "File",
+          "artifact": {
+            "size": 28875124,
+            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/ChromaLifev1-1.19.4/files/resourcepacks/3.3.1v_VisualEnchantments.zip",
+            "MD5": "ddb5a951d161f23701f381ef80e849b5",
+            "path": "resourcepacks/3.3.1v_VisualEnchantments.zip"
           }
         }
       ]
