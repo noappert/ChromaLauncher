@@ -11,7 +11,7 @@
       "id": "ChromaLifev1-1.19.4",
       "name": "ChromaLifev1 (Minecraft 1.19.4)",
       "description": "ChromaLifev1 Running Minecraft 1.19.4 (Forge v45.2.0)",
-      "icon": "https://helios-files.geekcorner.eu.org/servers/Demo-1.19.4/Demo-1.19.4.png",
+      "icon": "https://cdn.discordapp.com/icons/1162759415393431672/4ddfbf54fe624b46cb952daef9551a35.webp",
       "version": "",
       "address": "chromalife.aternos.me:25565",
       "minecraftVersion": "1.19.4",
@@ -20,8 +20,8 @@
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": false,
-      "autoconnect": false,
+      "mainServer": true,
+      "autoconnect": true,
       "modules": [
         {
           "id": "net.minecraftforge:lowcodelanguage:1.19.4-45.2.0",
