@@ -499,7 +499,7 @@
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
       "mainServer": false,
-      "autoconnect": true,
+      "autoconnect": false,
       "modules": [
         {
           "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.2.20",
@@ -1021,13 +1021,13 @@
           }
         },
         {
-          "id": "com.minecolonies.core:minecolonies:1.20.1-1.1.464-RELEASE@jar",
+          "id": "com.minecolonies.core:minecolonies:1.20.1-1.1.474-BETA@jar",
           "name": "MineColonies",
           "type": "ForgeMod",
           "artifact": {
-            "size": 77860443,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/DictaLand-1.20.1/forgemods/required/minecolonies-1.20.1-1.1.464-RELEASE.jar",
-            "MD5": "a99ae89e9711d350f089befd42b6d22b"
+            "size": 121673449,
+            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/DictaLand-1.20.1/forgemods/required/minecolonies-1.20.1-1.1.474-BETA.jar",
+            "MD5": "f7be62961a3cdadd9a11b38ccf539ecf"
           }
         },
         {
