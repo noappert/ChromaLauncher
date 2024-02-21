@@ -961,16 +961,6 @@
           }
         },
         {
-          "id": "yesman.epicfight.main:epicfight:20.6.5@jar",
-          "name": "Epic Fight",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 5814528,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/DictaLand-1.20.1/forgemods/required/EpicFight-20.6.5.jar",
-            "MD5": "496edb4a96c4e43c6e66267cdb1940d8"
-          }
-        },
-        {
           "id": "de.maxhenkel:gravestone:1.20.1-1.0.10@jar",
           "name": "Gravestone Mod",
           "type": "ForgeMod",
