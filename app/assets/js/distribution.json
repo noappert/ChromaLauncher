@@ -453,6 +453,16 @@
           }
         },
         {
+          "id": "net.coderbot.iris:oculus:1.6.15a@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2806358,
+            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/ChromaLifeV1-1.20.1/forgemods/required/oculus-mc1.20.1-1.6.15a.jar",
+            "MD5": "b6d1e02b5fccf72570fa19606006d711"
+          }
+        },
+        {
           "id": "de.maxhenkel:voicechat:1.20.1-2.4.32@jar",
           "name": "Simple Voice Chat",
           "type": "ForgeMod",
