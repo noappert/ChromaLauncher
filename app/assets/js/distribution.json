@@ -10,7 +10,7 @@
     {
       "id": "ChromaLifeV1-1.20.1",
       "name": "ChromaLifeV1 (Minecraft 1.20.1)",
-      "description": "ChromaLifeV1 Running Minecraft 1.20.1 (Forge v47.2.0)",
+      "description": "ChromaLifeV1 Running Minecraft 1.20.1 (Forge v47.2.20)",
       "icon": null,
       "version": "1.0.0",
       "address": "chromalife.aternos.me",
@@ -24,83 +24,83 @@
       "autoconnect": true,
       "modules": [
         {
-          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.2.0",
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.2.20",
           "name": "Minecraft Forge (lowcodelanguage)",
           "type": "ForgeHosted",
           "classpath": true,
           "artifact": {
-            "size": 7397,
-            "MD5": "f538b3b9ad1668b3d92945741f841071",
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.2.0/lowcodelanguage-1.20.1-47.2.0.jar"
+            "size": 7400,
+            "MD5": "9445bd28cb8bbf3405bcacc54627a6da",
+            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.2.20/lowcodelanguage-1.20.1-47.2.20.jar"
           },
           "subModules": [
             {
-              "id": "1.20.1-47.2.0",
+              "id": "1.20.1-47.2.20",
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 16542,
-                "MD5": "374162e774d7cf1b09af7af4d7805982",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/versions/1.20.1-forge-47.2.0/1.20.1-forge-47.2.0.json"
+                "size": 16554,
+                "MD5": "2b7daf23d11fff0d0e2b7ae54712dbdf",
+                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/versions/1.20.1-forge-47.2.20/1.20.1-forge-47.2.20.json"
               }
             },
             {
-              "id": "net.minecraftforge:fmlcore:1.20.1-47.2.0",
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.2.20",
               "name": "Minecraft Forge (fmlcore)",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 117589,
-                "MD5": "549205a1ba89e1c0735d9a46a338e715",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.2.0/fmlcore-1.20.1-47.2.0.jar"
+                "size": 118686,
+                "MD5": "a710f72f170f88737ff72a53ea1349d8",
+                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.2.20/fmlcore-1.20.1-47.2.20.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.2.0",
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.2.20",
               "name": "Minecraft Forge (javafmllanguage)",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 16371,
-                "MD5": "ab1c94373972048884a363d08bd1720d",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.2.0/javafmllanguage-1.20.1-47.2.0.jar"
+                "size": 16517,
+                "MD5": "3521da7e51982c2ace3a21ffe4070693",
+                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.2.20/javafmllanguage-1.20.1-47.2.20.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:mclanguage:1.20.1-47.2.0",
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.2.20",
               "name": "Minecraft Forge (mclanguage)",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 4996,
-                "MD5": "1bb13fed852f5088675101b9c6b538a0",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.2.0/mclanguage-1.20.1-47.2.0.jar"
+                "size": 4999,
+                "MD5": "4aeef0ba963dfbe0c4104b6532989988",
+                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.2.20/mclanguage-1.20.1-47.2.20.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.20.1-47.2.0:universal",
+              "id": "net.minecraftforge:forge:1.20.1-47.2.20:universal",
               "name": "Minecraft Forge (universal jar)",
               "type": "Library",
               "classpath": false,
               "artifact": {
-                "size": 2672123,
-                "MD5": "5902d79463abb7a3746c777c3919143e",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/forge/1.20.1-47.2.0/forge-1.20.1-47.2.0-universal.jar"
+                "size": 2679250,
+                "MD5": "27de7a3f2e5c69d54bc52cb179831aa9",
+                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/forge/1.20.1-47.2.20/forge-1.20.1-47.2.20-universal.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.20.1-47.2.0:client",
+              "id": "net.minecraftforge:forge:1.20.1-47.2.20:client",
               "name": "Minecraft Forge (client jar)",
               "type": "Library",
               "classpath": false,
               "artifact": {
-                "size": 4791112,
-                "MD5": "d805b1803123c683648f2e65dd98f3a8",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/forge/1.20.1-47.2.0/forge-1.20.1-47.2.0-client.jar"
+                "size": 4791301,
+                "MD5": "c548aeb8e9e1cd028005b628b54f3a29",
+                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/forge/1.20.1-47.2.20/forge-1.20.1-47.2.20-client.jar"
               },
               "subModules": []
             },
@@ -411,23 +411,23 @@
               }
             },
             {
-              "id": "net.minecraftforge:fmlloader:1.20.1-47.2.0",
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.2.20",
               "name": "Minecraft Forge (fmlloader)",
               "type": "Library",
               "artifact": {
-                "size": 264245,
-                "MD5": "6ea3c95084cc6dec3205fae098bb8cab",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.2.0/fmlloader-1.20.1-47.2.0.jar"
+                "size": 264185,
+                "MD5": "acee22eaf221c8cd61225002596f7640",
+                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.2.20/fmlloader-1.20.1-47.2.20.jar"
               }
             },
             {
-              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.2.0",
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.2.20",
               "name": "Minecraft Forge (fmlearlydisplay)",
               "type": "Library",
               "artifact": {
-                "size": 170333,
-                "MD5": "7050197358f88cf4ea899066fc97625d",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.2.0/fmlearlydisplay-1.20.1-47.2.0.jar"
+                "size": 170553,
+                "MD5": "b54b6fe4bd44788dcc6655f3399541f4",
+                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.2.20/fmlearlydisplay-1.20.1-47.2.20.jar"
               }
             }
           ]
@@ -488,7 +488,7 @@
     {
       "id": "DictaLand-1.20.1",
       "name": "DictaLand (Minecraft 1.20.1)",
-      "description": "DictaLand Running Minecraft 1.20.1 (Forge v47.2.0)",
+      "description": "DictaLand Running Minecraft 1.20.1 (Forge v47.2.20)",
       "icon": null,
       "version": "1.0.0",
       "address": "dictalland.aternos.me",
@@ -502,83 +502,83 @@
       "autoconnect": true,
       "modules": [
         {
-          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.2.0",
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.2.20",
           "name": "Minecraft Forge (lowcodelanguage)",
           "type": "ForgeHosted",
           "classpath": true,
           "artifact": {
-            "size": 7397,
-            "MD5": "f538b3b9ad1668b3d92945741f841071",
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.2.0/lowcodelanguage-1.20.1-47.2.0.jar"
+            "size": 7400,
+            "MD5": "9445bd28cb8bbf3405bcacc54627a6da",
+            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.2.20/lowcodelanguage-1.20.1-47.2.20.jar"
           },
           "subModules": [
             {
-              "id": "1.20.1-47.2.0",
+              "id": "1.20.1-47.2.20",
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 16542,
-                "MD5": "374162e774d7cf1b09af7af4d7805982",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/versions/1.20.1-forge-47.2.0/1.20.1-forge-47.2.0.json"
+                "size": 16554,
+                "MD5": "2b7daf23d11fff0d0e2b7ae54712dbdf",
+                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/versions/1.20.1-forge-47.2.20/1.20.1-forge-47.2.20.json"
               }
             },
             {
-              "id": "net.minecraftforge:fmlcore:1.20.1-47.2.0",
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.2.20",
               "name": "Minecraft Forge (fmlcore)",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 117589,
-                "MD5": "549205a1ba89e1c0735d9a46a338e715",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.2.0/fmlcore-1.20.1-47.2.0.jar"
+                "size": 118686,
+                "MD5": "a710f72f170f88737ff72a53ea1349d8",
+                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.2.20/fmlcore-1.20.1-47.2.20.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.2.0",
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.2.20",
               "name": "Minecraft Forge (javafmllanguage)",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 16371,
-                "MD5": "ab1c94373972048884a363d08bd1720d",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.2.0/javafmllanguage-1.20.1-47.2.0.jar"
+                "size": 16517,
+                "MD5": "3521da7e51982c2ace3a21ffe4070693",
+                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.2.20/javafmllanguage-1.20.1-47.2.20.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:mclanguage:1.20.1-47.2.0",
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.2.20",
               "name": "Minecraft Forge (mclanguage)",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 4996,
-                "MD5": "1bb13fed852f5088675101b9c6b538a0",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.2.0/mclanguage-1.20.1-47.2.0.jar"
+                "size": 4999,
+                "MD5": "4aeef0ba963dfbe0c4104b6532989988",
+                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.2.20/mclanguage-1.20.1-47.2.20.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.20.1-47.2.0:universal",
+              "id": "net.minecraftforge:forge:1.20.1-47.2.20:universal",
               "name": "Minecraft Forge (universal jar)",
               "type": "Library",
               "classpath": false,
               "artifact": {
-                "size": 2672123,
-                "MD5": "5902d79463abb7a3746c777c3919143e",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/forge/1.20.1-47.2.0/forge-1.20.1-47.2.0-universal.jar"
+                "size": 2679250,
+                "MD5": "27de7a3f2e5c69d54bc52cb179831aa9",
+                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/forge/1.20.1-47.2.20/forge-1.20.1-47.2.20-universal.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.20.1-47.2.0:client",
+              "id": "net.minecraftforge:forge:1.20.1-47.2.20:client",
               "name": "Minecraft Forge (client jar)",
               "type": "Library",
               "classpath": false,
               "artifact": {
-                "size": 4791112,
-                "MD5": "d805b1803123c683648f2e65dd98f3a8",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/forge/1.20.1-47.2.0/forge-1.20.1-47.2.0-client.jar"
+                "size": 4791301,
+                "MD5": "c548aeb8e9e1cd028005b628b54f3a29",
+                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/forge/1.20.1-47.2.20/forge-1.20.1-47.2.20-client.jar"
               },
               "subModules": []
             },
@@ -889,23 +889,23 @@
               }
             },
             {
-              "id": "net.minecraftforge:fmlloader:1.20.1-47.2.0",
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.2.20",
               "name": "Minecraft Forge (fmlloader)",
               "type": "Library",
               "artifact": {
-                "size": 264245,
-                "MD5": "6ea3c95084cc6dec3205fae098bb8cab",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.2.0/fmlloader-1.20.1-47.2.0.jar"
+                "size": 264185,
+                "MD5": "acee22eaf221c8cd61225002596f7640",
+                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.2.20/fmlloader-1.20.1-47.2.20.jar"
               }
             },
             {
-              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.2.0",
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.2.20",
               "name": "Minecraft Forge (fmlearlydisplay)",
               "type": "Library",
               "artifact": {
-                "size": 170333,
-                "MD5": "7050197358f88cf4ea899066fc97625d",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.2.0/fmlearlydisplay-1.20.1-47.2.0.jar"
+                "size": 170553,
+                "MD5": "b54b6fe4bd44788dcc6655f3399541f4",
+                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.2.20/fmlearlydisplay-1.20.1-47.2.20.jar"
               }
             }
           ]
