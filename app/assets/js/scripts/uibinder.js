@@ -83,11 +83,16 @@ async function showMainUI(data) {
             currentView = VIEWS.landing
             $(VIEWS.landing).fadeIn(1000)
         } else {
-            loginOptionsCancelEnabled(false)
-            loginOptionsViewOnLoginSuccess = VIEWS.landing
-            loginOptionsViewOnLoginCancel = VIEWS.loginOptions
-            currentView = VIEWS.loginOptions
-            $(VIEWS.loginOptions).fadeIn(1000)
+            if(isLoggedIn){
+                currentView = VIEWS.landing
+                $(VIEWS.landing).fadeIn(1000)
+            } else {
+                loginOptionsCancelEnabled(false)
+                loginOptionsViewOnLoginSuccess = VIEWS.landing
+                loginOptionsViewOnLoginCancel = VIEWS.loginOptions
+                currentView = VIEWS.loginOptions
+                $(VIEWS.loginOptions).fadeIn(1000)
+            }
         }
 
         setTimeout(() => {
