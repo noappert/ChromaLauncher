@@ -262,16 +262,16 @@ loginButton.addEventListener('click', () => {
     // Show loading stuff.
     loginLoading(true)
 
-    AuthManager.addAccount(loginUsername.value, loginPassword.value).then((value) => {
+    AuthManager.addMojangAccount(loginUsername.value, loginPassword.value).then((value) => {
         updateSelectedAccount(value)
         loginButton.innerHTML = loginButton.innerHTML.replace(Lang.queryJS('login.loggingIn'), Lang.queryJS('login.success'))
         $('.circle-loader').toggleClass('load-complete')
         $('.checkmark').toggle()
         setTimeout(() => {
-            switchView(VIEWS.login, loginViewOnSuccess, 500, 500, () => {
+            switchView(VIEWS.login, loginViewOnSuccess, 500, 500, async () => {
                 // Temporary workaround
                 if(loginViewOnSuccess === VIEWS.settings){
-                    prepareSettings()
+                    await prepareSettings()
                 }
                 loginViewOnSuccess = VIEWS.landing // Reset this for good measure.
                 loginCancelEnabled(false) // Reset this for good measure.
@@ -285,16 +285,25 @@ loginButton.addEventListener('click', () => {
                 formDisabled(false)
             })
         }, 1000)
-    }).catch((err) => {
+    }).catch((displayableError) => {
         loginLoading(false)
-        const errF = resolveError(err)
-        setOverlayContent(errF.title, errF.desc, Lang.queryJS('login.tryAgain'))
+
+        let actualDisplayableError
+        if(isDisplayableError(displayableError)) {
+            msftLoginLogger.error('Error while logging in.', displayableError)
+            actualDisplayableError = displayableError
+        } else {
+            // Uh oh.
+            msftLoginLogger.error('Unhandled error during login.', displayableError)
+            actualDisplayableError = Lang.queryJS('login.error.unknown')
+        }
+
+        setOverlayContent(actualDisplayableError.title, actualDisplayableError.desc, Lang.queryJS('login.tryAgain'))
         setOverlayHandler(() => {
             formDisabled(false)
             toggleOverlay(false)
         })
         toggleOverlay(true)
-        loggerLogin.log('Error while logging in.', err)
     })
 
 })
