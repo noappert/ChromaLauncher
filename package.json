@@ -1,9 +1,9 @@
 {
   "name": "chromalauncher",
   "version": "0.0.3",
-  "productName": "Chroma Launcher",
+  "productName": "ChromaLauncher",
   "description": "Modded Minecraft Launcher",
-  "author": "noappertBD (https://github.com/noappertBD)",
+  "author": "noappertBD (https://github.com/noappertBD/)",
   "license": "UNLICENSED",
   "homepage": "https://github.com/noappertBD/ChromaLauncher",
   "bugs": {
