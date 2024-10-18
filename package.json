@@ -1,7 +1,7 @@
 {
-  "name": "chromalauncher",
-  "version": "0.1.3",
-  "productName": "ChromaLauncher",
+  "name": "moddedbdlauncher",
+  "version": "0.1.4",
+  "productName": "ModdedBD Launcher",
   "description": "Modded Minecraft Launcher",
   "author": "noappertBD (https://github.com/noappertBD/)",
   "license": "UNLICENSED",
