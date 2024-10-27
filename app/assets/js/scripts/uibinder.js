@@ -68,7 +68,6 @@ async function showMainUI(data) {
     refreshServerStatus()
     setTimeout(() => {
         document.getElementById('frameBar').style.backgroundColor = 'rgba(0, 0, 0, 0.5)'
-        document.body.style.backgroundImage = `url('assets/images/backgrounds/${document.body.getAttribute('bkid')}.jpg')`
         $('#main').show()
 
         const isLoggedIn = Object.keys(ConfigManager.getAuthAccounts()).length > 0
@@ -96,8 +95,8 @@ async function showMainUI(data) {
         }
 
         setTimeout(() => {
-            $('#loadingContainer').fadeOut(500, () => {
-                $('#loadSpinnerImage').removeClass('rotating')
+            $('.sk-cube-grid').fadeOut(500, () => {
+                $('.sk-cube').removeClass('sk-cube')
             })
         }, 250)
 
@@ -110,7 +109,7 @@ async function showMainUI(data) {
 
 function showFatalStartupError() {
     setTimeout(() => {
-        $('#loadingContainer').fadeOut(250, () => {
+        $('.sk-cube-grid').fadeOut(250, () => {
             document.getElementById('overlayContainer').style.background = 'none'
             setOverlayContent(
                 Lang.queryJS('uibinder.startup.fatalErrorTitle'),

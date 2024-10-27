@@ -1,7 +1,7 @@
 # Custom Language File for Launcher Customizer
 
 [ejs.app]
-title = "ModdedBD"
+title = "ModdedBD v1"
 
 [ejs.landing]
 mediaGitHubURL = "https://github.com/noappertBD/ChromaLauncher"

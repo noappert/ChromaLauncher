@@ -2,7 +2,7 @@ appId: 'moddedbdlauncher'
 productName: 'ModdedBDLauncher'
 artifactName: '${productName}-setup-${version}.${ext}'
 
-copyright: 'Copyright © 2024 APPERT Nolan'
+copyright: 'Copyright © 2024 BlueDistrict'
 
 asar: true
 compression: 'maximum'
