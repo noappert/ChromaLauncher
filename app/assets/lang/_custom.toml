@@ -5,9 +5,6 @@ title = "ModdedBD v1"
 
 [ejs.landing]
 mediaGitHubURL = "https://github.com/noappertBD/ChromaLauncher"
-mediaTwitterURL = "#"
-mediaInstagramURL = "#"
-mediaYouTubeURL = "#"
 mediaDiscordURL = "https://discord.gg/gD5yt8k4NY"
 
 [ejs.settings]
