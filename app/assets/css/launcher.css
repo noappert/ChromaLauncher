@@ -2461,7 +2461,7 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Right hand user content container. */
 #user_content {
-margin: 10px;
+margin: 10px 0 10px 10px;
 background-color: #006eff40;
 border-radius: 6px;
 display: flex;
@@ -2538,10 +2538,21 @@ width: fit-content;
 * * */
 
 /* Main launch content container. */
-#landingContainer > #launch_content {
-  position: relative;
-  top: 25px;
-  display: inline-flex;
+#launch_content {
+  display: flex;
+  flex-direction: column-reverse;
+  min-height: calc(100% - 108.2px - 22px);
+  max-height: calc(100% - 108.2px - 22px);
+  
+}
+
+div.side {
+  width: fit-content;
+}
+
+img.servicon {
+  width: 30px;
+  height: 30px;
 }
 
 /* The launch button. */
@@ -2611,6 +2622,10 @@ width: fit-content;
 #server_selection_button:active {
   color: #c7c7c7;
   text-shadow: 0px 0px 20px #c7c7c7, 0px 0px 20px #c7c7c7, 0px 0px 20px #c7c7c7;
+}
+
+.server_select {
+  display: flex;
 }
 
 .servIcon {

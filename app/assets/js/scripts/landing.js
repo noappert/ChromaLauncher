@@ -157,7 +157,7 @@ function updateSelectedServer(serv){
     }
     ConfigManager.setSelectedServer(serv != null ? serv.rawServer.id : null)
     ConfigManager.save()
-    server_selection_button.innerHTML = (serv != null ? serv.rawServer.name + "<img class='servIcon' src="+ serv.rawServer.icon +">" : Lang.queryJS('landing.noSelection'))
+    server_selection_button.innerHTML = (serv != null ? "<div class='server_select'>" + serv.rawServer.name + "<img class='servIcon' src="+ serv.rawServer.icon +"></div>" : Lang.queryJS('landing.noSelection'))
     if(getCurrentView() === VIEWS.settings){
         animateSettingsTabRefresh()
     }
