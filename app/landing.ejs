@@ -1,5 +1,5 @@
 <div id="landingContainer" style="display: none">
-  <div class="side">
+  <div class="top">
     <div id="user_content">
       <div id="avatarContainer">
         <button id="avatarOverlay">
@@ -8,126 +8,152 @@
       </div>
       <span id="user_text"><%- lang('landing.usernamePlaceholder') %></span>
     </div>
-
-    <div class="bot_wrapper">
-      <div id="content">
-        <div id="server_status_wrapper">
-          <span class="bot_label" id="landingPlayerLabel"
-            ><%- lang('landing.serverStatus') %></span
-          >
-          <span id="player_count"
-            ><%- lang('landing.serverStatusPlaceholder') %></span
-          >
-        </div>
-      </div>
+    <div id="titleVer">
+      <span class="titleVerText">ModdedBD</span>
+      <span class="versionText">V1</span>      
     </div>
-    <div id="newsContainer">
-      <div id="newsContent" article="-1" style="display: none">
-        <div id="newsStatusContainer">
-          <div id="newsStatusContent">
-            <div id="newsTitleContainer">
-              <a id="newsArticleTitle" href="#">Lorem Ipsum</a>
-            </div>
-            <div id="newsMetaContainer">
-              <div id="newsArticleDateWrapper">
-                <span id="newsArticleDate">Mar 15, 44 BC, 9:14 AM</span>
+    <div id="updateAvailableTooltip"><%- lang('landing.updateAvailableTooltip') %></div>
+  </div>
+  <div class="bottom">
+    <div class="side">
+      <div class="bot_wrapper">
+        <div id="launch_content">
+          <div id="launch_details">
+            <div class="launchDet">
+              <div id="launch_details_left">
+                <span id="launch_progress_label">0%</span>
+                <div class="bot_divider"></div>
               </div>
-              <div id="newsArticleAuthorWrapper">
-                <span id="newsArticleAuthor">by Cicero</span>
+              <div id="launch_details_right">
+                <progress id="launch_progress" value="22" max="100"></progress>
+                <span id="launch_details_text" class="bot_label"
+                  ><%- lang('landing.launchDetails') %></span
+                >
               </div>
-              <a href="#" id="newsArticleComments">0 Comments</a>
             </div>
           </div>
-          <div id="newsNavigationContainer">
-            <button id="newsNavigateLeft">
-              <svg id="newsNavigationLeftSVG" viewBox="0 0 24.87 13.97">
-                <defs>
-                  <style>
-                    .arrowLine {
-                      fill: none;
-                      stroke: #fff;
-                      stroke-width: 2px;
-                      transition: 0.25s ease;
-                    }
-                  </style>
-                </defs>
-                <polyline
-                  class="arrowLine"
-                  points="0.71 13.26 12.56 1.41 24.16 13.02"
-                />
-              </svg>
-            </button>
-            <span id="newsNavigationStatus"
-              ><%- lang('landing.newsNavigationStatus', { currentPage: 1,
-              totalPages: 1 }) %></span
-            >
-            <button id="newsNavigateRight">
-              <svg id="newsNavigationRightSVG" viewBox="0 0 24.87 13.97">
-                <defs>
-                  <style>
-                    .arrowLine {
-                      fill: none;
-                      stroke: #fff;
-                      stroke-width: 2px;
-                      transition: 0.25s ease;
-                    }
-                  </style>
-                </defs>
-                <polyline
-                  class="arrowLine"
-                  points="0.71 13.26 12.56 1.41 24.16 13.02"
-                />
-              </svg>
-            </button>
-          </div>
-        </div>
-        <div id="newsArticleContainer">
-          <div id="newsArticleContent">
-            <div id="newsArticleContentScrollable">
-              <!-- Article Content -->
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="newsErrorContainer">
-        <div id="newsErrorLoading">
-          <span id="nELoadSpan" class="newsErrorContent"
-            ><%- lang('landing.newsErrorLoadSpan') %></span
-          >
-        </div>
-        <div id="newsErrorFailed" style="display: none">
-          <span id="nEFailedSpan" class="newsErrorContent"
-            ><%- lang('landing.newsErrorFailedSpan') %></span
-          >
-          <button id="newsErrorRetry">
-            <%- lang('landing.newsErrorRetryButton') %>
-          </button>
-        </div>
-        <div id="newsErrorNone" style="display: none">
-          <span id="nENoneSpan" class="newsErrorContent"
-            ><%- lang('landing.newsErrorNoneSpan') %></span
-          >
-        </div>
-      </div>
-    </div>
-    <div class="bot_wrapper">
-      <div id="launch_content">
-        <button id="launch_button"><%- lang('landing.launchButton') %></button>
-        <div class="bot_divider"></div>
-        <button id="server_selection_button" class="bot_label">
-          <%- lang('landing.launchButtonPlaceholder') %>
-        </button>
-      </div>
-      <div id="launch_details">
-        <div id="launch_details_left">
-          <span id="launch_progress_label">0%</span>
           <div class="bot_divider"></div>
+          <button id="launch_button">
+            <%- lang('landing.launchButton') %>
+          </button>
+          <div class="bot_divider"></div>
+          <div class="infos">
+            <div id="icon_server">
+
+            </div>
+            <button id="server_selection_button" class="bot_label">
+              <%- lang('landing.launchButtonPlaceholder') %>
+            </button>
+            <div class="bot_wrapper">
+              <div id="content">
+                <div id="server_status_wrapper">
+                  <span class="bot_label" id="landingPlayerLabel"
+                    ><%- lang('landing.serverStatus') %></span
+                  >
+                  <span id="player_count"
+                    ><%- lang('landing.serverStatusPlaceholder') %></span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div id="launch_details_right">
-          <progress id="launch_progress" value="22" max="100"></progress>
-          <span id="launch_details_text" class="bot_label"
-            ><%- lang('landing.launchDetails') %></span
-          >
+      </div>
+    </div>
+    <div class="rest">
+      <div class="titleNews">
+        <div id="textCenterNews">
+          <span id="titleText">ModdedBD</span>
+          <span id="titleDesc">Changelog</span>
+        </div>
+      </div>
+      <div id="newsContainer">
+        <div id="newsContent" article="-1" style="display: none">
+          <div id="newsStatusContainer">
+            <div id="newsStatusContent">
+              <div id="newsTitleContainer">
+                <a id="newsArticleTitle" href="#">Lorem Ipsum</a>
+              </div>
+              <div id="newsMetaContainer">
+                <div id="newsArticleDateWrapper">
+                  <span id="newsArticleDate">Mar 15, 44 BC, 9:14 AM</span>
+                </div>
+                <div id="newsArticleAuthorWrapper">
+                  <span id="newsArticleAuthor">by Cicero</span>
+                </div>
+                <a href="#" id="newsArticleComments">0 Comments</a>
+              </div>
+            </div>
+            <div id="newsNavigationContainer">
+              <button id="newsNavigateLeft">
+                <svg id="newsNavigationLeftSVG" viewBox="0 0 24.87 13.97">
+                  <defs>
+                    <style>
+                      .arrowLine {
+                        fill: none;
+                        stroke: #fff;
+                        stroke-width: 2px;
+                        transition: 0.25s ease;
+                      }
+                    </style>
+                  </defs>
+                  <polyline
+                    class="arrowLine"
+                    points="0.71 13.26 12.56 1.41 24.16 13.02"
+                  />
+                </svg>
+              </button>
+              <span id="newsNavigationStatus"
+                ><%- lang('landing.newsNavigationStatus', { currentPage: 1,
+                totalPages: 1 }) %></span
+              >
+              <button id="newsNavigateRight">
+                <svg id="newsNavigationRightSVG" viewBox="0 0 24.87 13.97">
+                  <defs>
+                    <style>
+                      .arrowLine {
+                        fill: none;
+                        stroke: #fff;
+                        stroke-width: 2px;
+                        transition: 0.25s ease;
+                      }
+                    </style>
+                  </defs>
+                  <polyline
+                    class="arrowLine"
+                    points="0.71 13.26 12.56 1.41 24.16 13.02"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div id="newsArticleContainer">
+            <div id="newsArticleContent">
+              <div id="newsArticleContentScrollable">
+                <!-- Article Content -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="newsErrorContainer">
+          <div id="newsErrorLoading">
+            <span id="nELoadSpan" class="newsErrorContent"
+              ><%- lang('landing.newsErrorLoadSpan') %></span
+            >
+          </div>
+          <div id="newsErrorFailed" style="display: none">
+            <span id="nEFailedSpan" class="newsErrorContent"
+              ><%- lang('landing.newsErrorFailedSpan') %></span
+            >
+            <button id="newsErrorRetry">
+              <%- lang('landing.newsErrorRetryButton') %>
+            </button>
+          </div>
+          <div id="newsErrorNone" style="display: none">
+            <span id="nENoneSpan" class="newsErrorContent"
+              ><%- lang('landing.newsErrorNoneSpan') %></span
+            >
+          </div>
         </div>
       </div>
     </div>

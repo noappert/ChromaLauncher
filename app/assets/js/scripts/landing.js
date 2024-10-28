@@ -39,6 +39,7 @@ const launch_progress_label   = document.getElementById('launch_progress_label')
 const launch_details_text     = document.getElementById('launch_details_text')
 const server_selection_button = document.getElementById('server_selection_button')
 const user_text               = document.getElementById('user_text')
+const icon_server             = document.getElementById('icon_server')
 
 const loggerLanding = LoggerUtil.getLogger('Landing')
 
@@ -52,10 +53,10 @@ const loggerLanding = LoggerUtil.getLogger('Landing')
 function toggleLaunchArea(loading){
     if(loading){
         launch_details.style.display = 'flex'
-        launch_content.style.display = 'none'
+        launch_button.style.display = 'none'
     } else {
         launch_details.style.display = 'none'
-        launch_content.style.display = 'inline-flex'
+        launch_button.style.display = 'initial'
     }
 }
 
@@ -157,7 +158,9 @@ function updateSelectedServer(serv){
     }
     ConfigManager.setSelectedServer(serv != null ? serv.rawServer.id : null)
     ConfigManager.save()
-    server_selection_button.innerHTML = (serv != null ? "<div class='server_select'>" + serv.rawServer.name + "<img class='servIcon' src="+ serv.rawServer.icon +"></div>" : Lang.queryJS('landing.noSelection'))
+
+    icon_server.innerHTML = (serv != null ? "<img class='servIcon' src="+ serv.rawServer.icon +">" : Lang.queryJS('landing.noSelection'))
+    server_selection_button.innerHTML = (serv != null ? "<div class='server_select'>" + serv.rawServer.name + "</div>" : Lang.queryJS('landing.noSelection'))
     if(getCurrentView() === VIEWS.settings){
         animateSettingsTabRefresh()
     }

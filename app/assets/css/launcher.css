@@ -2461,12 +2461,41 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Right hand user content container. */
 #user_content {
-margin: 10px 0 10px 10px;
-background-color: #006eff40;
-border-radius: 6px;
-display: flex;
-min-width: 200px;
-width: fit-content;
+  margin: 0 0 0 10px;
+  background-color: #006eff40;
+  border-radius: 6px;
+  display: flex;
+  min-width: 220px;
+  width: fit-content;
+}
+
+div.top {
+  display: flex;
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: 1px solid #444444;
+}
+
+#titleVer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleVerText {
+  font-weight: 900;
+  font-size: 20px;
+  position: relative;
+  top: 4px;
+}
+
+.versionText {
+  font-weight: 100;
+  font-size: 12px;
+  position: relative;
+  top: -2px;
 }
 
 /* User profile avatar container. */
@@ -2514,6 +2543,10 @@ width: fit-content;
   margin: 5px 10px 0 10px;
 }
 
+#content {
+  margin: 0 0 0 10px;
+}
+
 #return {
   display: flex;
   align-items: center;
@@ -2541,25 +2574,79 @@ width: fit-content;
 #launch_content {
   display: flex;
   flex-direction: column-reverse;
-  min-height: calc(100% - 108.2px - 22px);
-  max-height: calc(100% - 108.2px - 22px);
-  
+  min-height: calc(100% - 65px - 22px);
+  max-height: calc(100% - 65px - 22px);
+  margin: 0 0 10px 0;
 }
 
 div.side {
   width: fit-content;
+  display: inline-block;
+  max-width: 230px;
 }
 
-img.servicon {
-  width: 30px;
-  height: 30px;
+div.rest {
+  display: inline-block;
+  width: calc(100% - 230px);
+  height: calc(100% - 76px);
+  position: absolute;
+}
+
+#textCenterNews {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.titleNews {
+  height: auto;
+  background-color: #006eff40;
+  margin: 15px;
+  height: 150px;
+  border-radius: 6px;
+  border: 2px solid #444444;
+}
+
+#titleText {
+  font-size: 40px;
+  position: relative;
+  top: 0px;
+  font-weight: 900;
+}
+
+#titleDesc {
+  font-size: 15px;
+  position: relative;
+  top: -11px;
+}
+
+img.servIcon {
+  width: 210px;
+  height: 210px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px #202124;
+}
+
+div#icon_server {
+  padding: 10px;
+  background-color: #444444;
+}
+
+.infos {
+  margin: 0 0 10px 0;
+  border-radius: 0 0 6px 0;
+  border-bottom: 1px solid #444444;
+  border-right: 1px solid #444444;
+  flex: auto;
 }
 
 /* The launch button. */
 #launch_button {
   background: #006fff;
   height: 60px;
-  width: 200px;
+  width: 220px;
   border-radius: 6px;
   border: none;
   cursor: pointer;
@@ -2568,6 +2655,9 @@ img.servicon {
   transition: 0.25s ease;
   outline: none;
   margin: 0 0 0 10px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1em;
 }
 
 #launch_button:disabled {
@@ -2577,9 +2667,18 @@ img.servicon {
 
 /* Launch details main container, hidden until launch processing begins. */
 #launch_details {
-  position: relative;
-  top: 25px;
   display: none;
+  flex-direction: column-reverse;
+  min-height: calc(100% - 65px - 22px);
+  max-height: calc(100% - 65px - 22px);
+  min-width: 230px;
+  max-width: 230px;
+}
+
+.launchDet {
+  min-height: 60px;
+  max-height: 60px;
+  margin: 0 0 0 10px;
 }
 
 /* Left side of launch details container, displays percentage and a divider. */
@@ -2614,6 +2713,7 @@ img.servicon {
   line-height: 24px;
   padding: 0px;
   transition: 0.25s ease;
+  margin: 0 0 0 10px;
 }
 #server_selection_button:hover,
 #server_selection_button:focus {
@@ -2652,6 +2752,10 @@ img.servicon {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+}
+
+#newsContainer {
+  margin: 0 0 0 15px;
 }
 
 /*******************************************************************************
