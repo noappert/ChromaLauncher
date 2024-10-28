@@ -2550,7 +2550,6 @@ div.top {
 #return {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 6px;
   height: 15px;
 }
